@@ -1,8 +1,10 @@
 """Готовый общий main. Вызывает классы из соседних модулей."""
 import json
 from pathlib import Path
+
 from quiz_app.quiz import Quiz
 from quiz_app.storage import ResultStorage
+
 
 def main():
     base = Path(__file__).resolve().parent
